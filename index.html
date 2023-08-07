@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pang Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        canvas {
+            border: 3px solid #333;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .instructions {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 80%;
+            text-align: center;
+        }
+
+        .instructions h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="instructions">
+        <h2>Instructions</h2>
+        <p>Move the player with the <strong>ArrowLeft</strong> and <strong>ArrowRight</strong> keys.</p>
+        <p>Shoot with the <strong>Space</strong> key.</p>
+        <p>Avoid being hit by the balls and destroy them with your shots.</p>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
